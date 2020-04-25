@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --dark-primary-color: rgba(82, 45, 168, 0.39);
+    --light-primary-color: #D1C4E9;
+    --primary-color: #673AB7;
+    --text-icons-color: #FFFFFF;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --divider-color: #BDBDBD;
+    --accenr-color: #009688;
+    --transition: all 0.2s linear;
+}
+
+body {
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Header */
+.header {
+    background-color: var(--light-primary-color);
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    align-items: center;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header > i {
+    justify-self: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.logo {
+    justify-self: center;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.cart-amount {
+    justify-self: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-amount > i {
+    font-size: 23px;
+}
+
+.cart-number-amount {
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    color: var(--text-icons-color);
+}
+
+/* Background */
+.background {
+    width: 100%;
+    height: calc(90vh);
+    background: url("../images/hero-bcg.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.836);
+    width: minmax(400px, 100%);
+    margin: auto;
+    border-radius: 2px;
+    padding: 50px 50px;
+}
+
+.background-content > p {
+    text-transform: uppercase;
+    font-family: "Righteous";
+    font-size: 3rem;
+    color: var(--primary-text-color);
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.bag-button {
+    background-color: var(--primary-color);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-weight: 100;
+    color: var(--text-icons-color);
+    cursor: pointer;
+}
+
+.bag-button:hover {
+    border: 1px solid var(--primary-color);
+    background-color: var(--text-icons-color);
+    transition: var(--transition);
+    color: var(--primary-text-color);
+}
+
+@media(max-width: 700px) {
+    .background-content > p {
+        font-size: 2rem;
+
+    }
+}
+
+/* Product content */
+.products-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.products-content-header {
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.products-content-header {
+    color: var(--primary-text-color);
+    font-family: "Righteous";
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.products-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    width: 95%;
+    margin: 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.item {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.appear-button i {
+    margin-right: 5px;
+}
+
+.appear-button {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    transform: translateX(100%);
+    transition: all ease-in-out 0.5s;
+}
+
+.item-image-container:hover .appear-button {
+    transform: translateX(0);
+}
+
+.item-image-container:hover {
+    opacity: 0.7;
+}
+
+.item-name {
+    font-family: "Righteous";
+    font-size: 1.3rem;
+    margin: 5px auto;
+}
+
+.item-price {
+    font-family: "Righteous";
+    margin: 5px auto;
+    color: var(--primary-color);
+}
+
+/* End of products item */
+/* Show cart */
+.show-cart-container {
+    background-color: var(--dark-primary-color);
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 0.5s;
+    visibility: hidden;
+}
+
+.show-cart-container-visible {
+    transition: all ease-in-out 0.5s;
+    visibility: visible;
+}
+
+.show-cart {
+    width: 50%;
+    height: 100%;
+    background-color: var(--light-primary-color);
+    padding-left: 10px;
+    transition: all ease-in-out 1s;
+    position: fixed;
+    z-index: 12;
+    overflow: scroll;
+    transition: all ease-in-out 0.5s;
+    transform: translateX(100%);
+}
+
+.show-cart-translate0 {
+    transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+    .show-cart {
+        width: 100%;
+        transition: all ease-in-out 0.5s;
+    }
+}
+
+.show-cart-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-show-cart-item {
+    display: grid;
+    grid-template-columns: 100px 1fr 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.infor-item {
+    margin-left: 20px;
+}
+
+.image-show-cart-item {
+    overflow: hidden;
+    width: 100%;
+}
+
+.image-show-cart-item img {
+    width: 100%;
+    height: 80px;
+}
+
+.close-cart-container i {
+    font-size: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.show-cart > p {
+    font-family: "Righteous";
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.infor-item {
+    padding-left: 2 0px;
+}
+
+.infor-item p {
+    font-family: "Righteous";
+    margin: 3px auto;
+}
+
+.infor-item p:nth-child(2) {
+    color: var(--primary-color);
+}
+
+.remove-button {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.remove-button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.amount-item-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amount-item-control i {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.show-cart-infor {
+    font-family: "Righteous";
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* End of show cart */
