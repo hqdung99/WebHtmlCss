@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+:root {
+    --background-card: url("../images/background.jpg")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abel";
+}
+
+body {
+    background-color: rgb(46, 43, 43);
+    padding-top: 10px;
+}
+
+/* Card Container */
+.card {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#background {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--background-card);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    filter: blur(4px);
+}
+
+/* Card-inner Container */
+.card-inner {
+    position: absolute;
+    border-radius: 20px;
+    width: 400px;
+    height: 680px;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+#background-inner-card {
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--background-card);
+    background-position: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/* Card-top Container */
+.card-top {
+    width: 100%;
+    height: 60px;
+    color: white;
+    position: relative;
+}
+
+.name-register {
+    justify-self: center;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-register i {
+    margin-left: 5px;
+}
+
+.control-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card-body */
+.card-body {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    color: white;
+    margin-top: 20px;
+}
+
+/* User infor */
+.user-infor {
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 5fr 2fr;
+    justify-content: center;
+}
+
+.avatar-container {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 10px 10px 5px rgb(0, 0, 0, 0.3);
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/avatar-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(2);
+}
+
+.name { 
+    display: flex;
+    align-items: center;
+}
+
+/* Statistics */
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.statistic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.card-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.icon {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Controls image  */
+.controls-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.486);
+    padding: 20px;
+    border-top-right-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.controls-image button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
