@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    min-height: 100vh; /* must have to align in center*/
+}
+
+.container {
+    position: relative;
+}
+
+/* Card */
+
+.container .card {
+    position: relative;
+    width: 330px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(44, 44, 44);
+    overflow: hidden;
+}
+
+.container .card::after {
+    content: "NIKE";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 8rem;
+    font-weight: 800;
+    top: 35%;
+    left: -13%;
+}
+
+.container .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #bcf31b;
+    clip-path: circle(42.8% at 75% 0);
+    transition: 0.5s ease-in-out;
+    z-index: 0;
+}
+
+.container .card:hover::before {
+    clip-path: circle(43.1% at 53% 0);
+}
+
+/* End Card */
+/* Image */
+.container .card .image {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(50%);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card:hover .image {
+    transform: translateY(10%);
+}
+
+.container .card .image img{
+    width: 70%;
+    transform: rotate(-25deg);
+}
+
+/* End Image */
+
+/* Content Box */
+.container .card .content-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+    height: 150px;
+    z-index: 10;
+}
+
+.container .card:hover .content-box {
+    height: 250px;
+}
+
+/* End Content Box */
+
+/* Brand */
+.container .card .content-box .brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* End Brand */
+
+/* Size */
+
+.container .card .content-box .size {
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.container .card:hover .content-box .size {
+    opacity: 1;
+    visibility: visible;
+}
+
+.container .card .content-box .size .size-item {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto 5px;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container .card .content-box .size .size-item:hover {
+    background-color: #bcf31b;
+}
+
+.container .card .content-box .size h3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    flex-grow: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 5px;
+}
+
+/* End size */
+
+/* Color */
+.container .card .content-box .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.6s;
+}
+
+.container .card:hover .content-box .color {
+    opacity: 1;
+    visibility: visible;
+}
+
+.container .card .content-box .color h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+}
+
+.container .card .content-box .color span {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.container .card .content-box .color span:nth-child(2) {
+    background-color: #e07127;
+}
+
+.container .card .content-box .color span:nth-child(3) {
+    background-color: #27c4e0;
+}
+
+.container .card .content-box .color span:nth-child(4) {
+    background-color: #e027b8;
+}
+/* End color */
+
+
+
+/* Buy button */
+.container .card .content-box .button {
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    align-self: center;
+    padding: 2px 8px;
+    border-radius: 2px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.7s;
+}
+
+.container .card:hover .content-box .button {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* End Buy Button */
