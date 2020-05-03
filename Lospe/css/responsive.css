@@ -1,0 +1,37 @@
+@media only screen and (max-width: 992px) {
+    /* Introduce self */
+    .introduce-self {
+        margin-top: 5vh;
+    }
+    /* End Introduce self */
+    /* Brand self */
+    .brand {
+        margin-top: 10vh;
+    }
+    .brand .container .item .brand-item .image {
+        width: 60%;
+    }
+
+    .brand .container .item .brand-item .image img {
+        width:50%;
+    }
+    
+    .call-number {
+        margin-top: 10vh;
+    }
+
+    .year-experience {
+        margin-top: 10vh;
+    }
+    /* End brand self*/
+}
+
+@media only screen and (max-width: 576px) {
+    .brand .container .item .brand-item .image img {
+        width:30%;
+    }
+
+    .brand .container .item .brand-item {
+        height: 160px;
+    }
+}
