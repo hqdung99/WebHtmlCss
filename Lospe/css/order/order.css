@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    overflow: scroll;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* order-container */
+.order-products .order-container {
+    position: relative;
+}
+
+/* end order-container */
+/* row item */
+.order-products .order-container .order-row-cards-item {
+    display: flex;
+    width: 1200px;
+    margin: 10px;
+    margin-left: 35px;
+    border: 0.1px solid rgb(211, 211, 211);
+    border-radius: 2px;
+}
+/* end row item */
+
+/* card */
+.order-products .order-container .order-row-cards-item .order-card {
+    width: 300px;
+    height: 450px;
+    margin: 8px;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.3s;
+    position: relative;
+}
+
+.order-products .order-container .order-row-cards-item .order-card:hover {
+    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* end card */
+.order-products .order-container .order-row-cards-item .order-card .content-box {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 150px;
+    transition: 0.5s;
+}
+
+.order-products .order-container .order-row-cards-item .order-card:hover .content-box {
+    height: 230px;
+}
+
+
+/* ContentBox */
+
+/* End of content box */
+/* Image in card */
+.order-products .order-container .order-row-cards-item .order-card .order-image {
+    display: flex;
+    justify-content: center;
+    clip-path: circle(89.8% at 42% 31%);
+    transition: 0.3s ease-in-out;
+    max-height: 230px;
+}
+
+.order-products .order-container .order-row-cards-item .order-card:hover .order-image {
+    clip-path: circle(70.7% at 64% 16%);
+}
+
+.order-products .order-container .order-row-cards-item .order-card .order-image img {
+    width: 98%;
+    border-radius: 5px;
+    margin: 5px auto;
+    filter: brightness(1);
+    transition: 0.2s;
+}
+
+.order-products .order-container .order-row-cards-item .order-card .order-image img:hover {
+    filter: brightness(1.2);
+    transform: scale(1.1);
+}
+/* End Image in card */
+
+/* Name of products */
+
+.order-products .order-container .order-row-cards-item .order-card .title h5 {
+    text-align: center;
+    color: #6c6b6d;
+}
+/* End of name of products */
+
+/* Price of products */
+.order-products .order-container .order-row-cards-item .order-card .price p {
+    text-align: center;
+    color: rgb(218, 149, 47);
+}
+/* End of price of products */
+
+/* more infor of products */
+.order-products .order-container .order-row-cards-item .order-card .more-infor-button {
+    display: flex;
+    justify-content: center;
+}
+
+.order-products .order-container .order-row-cards-item .order-card a {
+    background-color: rgb(218, 149, 47);
+    color: white;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+    border: none;
+}
+
+.order-products .order-container .order-row-cards-item .order-card a:hover {
+    background-color: white;
+    color: #6c6b6d;
+    border: 1px solid rgb(218, 149, 47);
+}
+
+/* End of more infor of products */
+
+/* Cart situation */
+.cart-situation {
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.cart-situation:hover {
+    background-color: #6b2de7;
+}
+
+.cart-situation * {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.amount {
+    padding: 2px 5px;
+    margin: auto 5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.cart-situation span:nth-child(2) {
+    color: white;
+}
+
+/* End cart situation */

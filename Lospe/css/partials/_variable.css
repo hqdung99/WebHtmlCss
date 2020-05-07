@@ -1,0 +1,9 @@
+:root {
+    --font-family: "Roboto";
+    --gradient-color: linear-gradient(90deg, #00138b 0%, #935dff 50%, #a5007c 100%);
+    --primary-color: #854fee;
+    --title-text-color: #323136;
+    --primary-text-color: #6c6b6d;
+    --primary-transition: 0.7s ease;
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.025);
+}

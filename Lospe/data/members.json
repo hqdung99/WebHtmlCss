@@ -1,0 +1,54 @@
+{
+    "members": [
+        {
+            "name": "Anh Trúc",
+            "quote": "Cảm ơn Lospe đã mang vị quê hương đến gần ngôi nhà của tôi (from Bình Định with love)",
+            "image": "./images/member/y1.jpg"
+        },
+        {
+            "name": "Thảo Ly",
+            "quote": "Điều tôi thích nhất ở Lospe là cách họ chăm sóc khách hàng, rất tận tâm và chu đáo.",
+            "image": "./images/member/y2.jpg"
+        },
+        {
+            "name": "Quỳnh Trân",
+            "quote": "Lospe đem đến cho tôi trải nghiệm mới lạ mà tôi luôn tìm kiếm.",
+            "image": "./images/member/y3.jpg"
+        },
+        {
+            "name": "Hoàng Tiệp",
+            "quote": "Nhờ Lospe tôi có thể nếm thử hương vị của từng vùng miền qua các sản phẩm mà không cần đi đâu. ",
+            "image": "./images/member/y4.jpg"
+        },
+        {
+            "name": "Minh Thành",
+            "quote": "Mình đã đặt hàng từ  Lospe và cảm thấy rất hài lòng.  Chúc Lospe ngày càng phát triển.",
+            "image": "./images/member/y5.jpg"
+        },
+        {
+            "name": "Đức Thịnh",
+            "quote": "Mình đánh giá Lospe chuẩn 5 sao.",
+            "image": "./images/member/y6.jpg"
+        },
+        {
+            "name": "Quỳnh Trang",
+            "quote": "Sản phẩm đa dạng, bảo quản tốt, ăn rất ngon.",
+            "image": "./images/member/y7.jpg"
+        },
+        {
+            "name": "Mai Thư",
+            "quote": "Lospe đã mang đến cho mình những món ăn và những trải nghiệm khá thú vị.",
+            "image": "./images/member/y8.jpg"
+        },
+        {
+            "name": "Lê Thủy",
+            "quote": "Lospe đã giúp tôi lấp đầy nỗi nhớ về hương vị của những món ăn quê hương.",
+            "image": "./images/member/y9.jpg"
+        },
+        {
+            "name": "Ái Tiên",
+            "quote": "Lospe giúp tôi mở mang hiểu biết về nền văn hóa ẩm thực tinh túy của đất nước Việt Nam.",
+            "image": "./images/member/y10.jpg"
+        }
+    ]
+}

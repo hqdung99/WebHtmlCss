@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng | Lospe</title>
+    <link rel="icon" href="images/lospe1.png"
+    type = "image/x-icon"> 
+        <!-- ======== Boostrap CSS file =======-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!-- ======= Font awesome icons =======-->
+        <link rel="stylesheet" href="./css/all.min.css">
+    
+        <!-- ======= Magnific-popup ===========-->
+        <link rel="stylesheet"
+          href="./vendor/magnific-popup/css/magnific-popup.css">
+    
+        <!-- ======== owl carousel ============-->
+        <link rel="stylesheet"
+          href="./vendor/owl-carousel/css/owl.carousel.min.css">
+        <link rel="stylesheet"
+          href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+        
+        <!-- ======== Custom CSS file ========= -->
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/cart/cart.css">
+
+        <!-- ======== Responsive css ===========-->
+        <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+   <!-- ======== Start Header Area =========== -->
+   <header class="header">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="index.html">
+           <div class="image">
+             <img src="./images/lospe.png" alt="Logo" class="img-fluid">
+           </div>
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse"
+           data-target="#navbarSupportedContent"
+           aria-controls="navbarSupportedContent" aria-expanded="false"
+           aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+   
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+               <a class="nav-link text-uppercase" href="index.html">Trang chủ<span
+                   class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link text-uppercase" href="order.html">Đặt hàng</a>
+             </li>
+             <li class="nav-item cart-situation">
+                <i class="fas fa-cart-plus"></i>
+                <span>Giỏ hàng</span>
+                <span class="amount">0</span>
+             </li>
+           </ul>
+         </div>
+       </nav>
+   </header>
+   <!-- ============== End Header Area ============ -->
+
+   <section class="cart-section">
+        <div class="left-container">
+            <div class="title-cart">
+                giỏ hàng<span>(0 sản phẩm)</span>
+            </div>
+
+            <div class="items-cart">
+
+                <!-- <div class="item"> -->
+                    <!-- <div class="image"> -->
+                        <!-- <img src="./images/menu/1.jpg" alt="Item" class="img-fluid"> -->
+                    <!-- </div> -->
+                    <!-- <div class="item-infor"> -->
+                        <!-- <div class="title-description"> -->
+                            <!-- <div class="image"> -->
+                                <!-- <img src="./images/lospe.png" alt="Lospe Logo" class="img-fluid"> -->
+                            <!-- </div> -->
+                            <!-- <div class="name-product"> -->
+                                <!-- <a href="#">Coconut dry cake</a> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                        <!-- <div class="transport"> -->
+                            <!-- <div class="image"> -->
+                                <!-- <img src="./images/chervon-double-right.png" alt="Chervon" class="img-fluid"> -->
+                            <!-- </div> -->
+                            <!-- <span>Giao hàng 24h</span> -->
+                        <!-- </div> -->
+                        <!-- <div class="delete"> -->
+                            <!-- delete -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- <div class="price-quantity"> -->
+                        <!-- <div class="price"> -->
+                            <!-- $1.1 -->
+                        <!-- </div> -->
+                        <!-- <div class="quantity"> -->
+                            <!-- <span class="minus-text">-</span> -->
+                            <!-- <input type="number"> -->
+                            <!-- <span class="plus-text">+</span> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="sum-money">
+                <div>Tạm tính:</div>
+                <div class="sum">$0</div>
+            </div>
+            <div class="real-money">
+                <div class="contain">
+                    <div>Thành tiền:</div>
+                    <div class="real">$0</div>
+                </div>
+                <div class="vat-text">(Đã bao gồm VAT nếu có)</div>
+            </div>
+            <div class="order">
+                <input class="name-customer" type="text" placeholder="Tên của bạn" required>
+                <input class="phone-number-customer" type="text" placeholder="Số điện thoại" required>
+                <input class="email-customer" type="email" placeholder="Email" required>
+                <input class="dispatch-box-customer" type="text" placeholder="Nơi nhận hàng" required>
+                <a href="#" class="buy-button">Tiến hành đặt hàng</a>
+
+                <!-- Button trigger invalid field -->
+                <button type="button" class="btn btn-primary check-buy-button" data-toggle="modal" data-target="#checkBuyButton">
+                    Invalid field
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="checkBuyButton" tabindex="-1" role="dialog" aria-labelledby="checkBuyButton" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Thiếu thông tin</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Một vài thông tin còn thiếu, xin bạn vui lòng kiểm tra lại trước khi đặt hàng. Xin cảm ơn!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Button trigger modal succes buy-->
+                <button type="button" class="btn btn-primary success-buy" data-toggle="modal" data-target="#successBuy">
+                    Success buy
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="successBuy" tabindex="-1" role="dialog" aria-labelledby="successBuy" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Đặt hàng thành công</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Bạn đã đặt hàng thành công.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+   </section>
+
+
+   <!-- ============= jQuery file ================ -->
+   <script src="js/jQuery-3.5.0.min.js"></script>
+   <!-- ============= Boostrap js file ========= -->
+   <script src="./js/bootstrap.min.js"></script>
+
+   <!-- ============ owl-carousel ============ -->
+   <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+   <!-- ============ Magnific popup =========== -->
+   <script src="./vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+
+   <!-- ============= isotope =========== -->
+   <script src="./vendor/isotope/js/isotope-docs.min.js"></script>
+
+   <!-- ============= Cart ============== -->
+   <script type="module" src="js/cart.js"></script>
+
+</body>
+</html>

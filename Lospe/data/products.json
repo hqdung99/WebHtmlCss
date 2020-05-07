@@ -1,0 +1,532 @@
+{
+    "products": [
+        {
+                    "id": 1,
+                    "name": "Khô gà xé Tiền Giang",
+                    "price": "80000",
+                    "description": "Khô gà xé Tiền Giang với những sợi thịt gà thơm ngon, cay nóng dễ chịu, món ăn được làm từ những con gà khỏe mạnh, loại gà tơ thả rong trong vườn cho ra loại khô gà xé sợi chất lượng tuyệt hảo. Quy cách: 250g/gói",
+                    "preservation": "Tủ lạnh có nhiệt độ thấp",
+                    "expiryday": "6 tháng kể từ ngày sản xuất",
+                    "origin": "Tiền Giang - Việt Nam",
+                    "image": "./images/menu/1.jpg"
+        },
+        {
+                    "id": 2,
+                    "name": "Bánh cáy Thái Bình",
+                    "price": "40000",
+                    "description": "Bánh cáy có vị ngọt, bùi, lại có chút béo đan xen cùng với độ giòn, lại vừa dẻo vừa dai. Thú vị hơn nữa là lại được nhâm nhi bên ấm trà xanh nóng trong tiết trời se se lạnh, vị trà ấm kết hợp với vị cay nóng của gứng trong miếng bánh sẽ khiến người ăn cảm thấy ấm dạ, khoan khoái. Quy cách: 600g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp",
+                    "expiryday": "6 tháng kể từ ngày sản xuất",
+                    "origin": "Thái Bình - Việt Nam",
+                    "image": "./images/menu/2.jpg"
+        },
+        {
+                    "id": 3,
+                    "name": "Rượu nếp nương",
+                    "price": "90000",
+                    "description": "Rượu nếp nương được ủ từ loại nếp trồng trên ruộng vùng cao, với công thức gia truyền và hạ thổ lâu năm, rượu nếp có vị trầm và mùi thơm tự nhiên khi thưởng thức, ngon hơn khi uống lạnh. Quy cách: 500ml/lọ",
+                    "preservation": "Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp hoặc tủ lạnh ngăn mát",
+                    "expiryday": "Vô hạn, càng lâu càng ngon",
+                    "origin": "Lâm Đồng - Việt Nam",
+                    "image": "./images/menu/3.jpg"
+        },
+        {
+                    "id": 4,
+                    "name": "Hạt dẻ Trùng Khánh",
+                    "price": "50000",
+                    "description": "Hạt dẻ Trùng Khánh thường nhỏ nhất cũng bằng ngón chân cái, vỏ lụa rất mỏng, hạt màu vàng sẫm, bùi và thơm ngậy đặc biệt. Để chế biến các món ăn thường vỏ hạt dẻ rất cứng nên muốn nó chín cần phải luộc kỹ. Có người còn cẩn thận khía sẵn vài đường trên vỏ hạt để khi chín dễ bóc. Sau khi luộc chín, nếu đem hạt dẻ rang lại một lượt đến khi dậy mùi thơm tự nhiên. Quy cách: 1kg/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp",
+                    "expiryday": "6 tháng kể từ ngày sản xuất",
+                    "origin": "Cao Bằng - Việt Nam",
+                    "image": "./images/menu/4.jpg"
+        },
+        {
+                    "id": 5,
+                    "name": "Khô cá lóc An Giang",
+                    "price": "250000",
+                    "description": "Khô Cá Lóc An Giang là đặc sản được ưa chuộng nhất, không chỉ mua dùng chế biến món ăn trong gia đình, nhâm nhi trong các bữa tiệc, khô cá lóc còn là mặt hàng giá trị mà nhiều người chọn làm quà biếu. Quy cách: 1kg/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "An Giang - Việt Nam",
+                    "image": "./images/menu/5.jpg"
+        },
+        {
+                    "id": 6,
+                    "name": "Muối kiến vàng",
+                    "price": "45000",
+                    "description": "Muối kiến vàng được làm từ con kiến vàng sống ở trên cây có thành phần dinh dưỡng cao, đạm từ 42-67% và có 28 loại acid amin. Điểm đặc biệt của con kiến vàng nằm ở phần bụng và thân vì phần này có dịch chua nên muối có vị chua chua kèm với vị cay của ớt rừng khiến cho mùi vị của muối rất lạ. Vào mùa kiến sinh sản sẽ càng tuyệt vời hơn khi trong muối kiến vàng có thêm trứng kiến, tăng thêm vị béo khiến muối kiến càng ngon hơn. Quy cách: 100g/hủ",
+                    "preservation": "Nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh",
+                    "expiryday": "6 tháng kể từ ngày sản xuất",
+                    "origin": "Gia Lai - Việt Nam",
+                    "image": "./images/menu/6.jpg"
+        
+        },
+        {
+                    "id": 7,
+                    "name": "Khô bò một nắng",
+                    "price": "330000",
+                    "description": "Hương vị tuyệt vời lạ lẫm của khô bò một nắng khiến bạn ấn tượng khó quên: Vị ngọt mềm của bò tơ hòa quyện vị mặn mặn, cay cay, ngọt ngọt của các loại gia vị tẩm ướp kết hợp vị mẳn mẳn, cay xé, beo béo của muối kiến, mùi lá len then và một số lá rừng khô thơm lất phất,.... tạo nên dư vị đậm đà, một chút hoang dã, một chút quen thuộc,... Khô bò một nắng sẽ là mồi nhậu ngon cho cánh đàn ông lúc nhàn rỗi hàn huyên câu chuyện đời sống. Quy cách: 500g/gói",
+                    "preservation": "Ngăn mát tủ lạnh",
+                    "expiryday": "6 tháng kể từ ngày sản xuất",
+                    "origin": "Gia Lai - Việt Nam",
+                    "image": "./images/menu/7.jpg"
+        },
+        {
+                    "id": 8,
+                    "name": "Tôm chua xứ Nẫu",
+                    "price": "140000",
+                    "description": "Tôm chua từ lâu đã trở thành đặc sản nổi tiếng của nhiều vùng đất ẩm thực như Huế, Đà Nẵng, Bình Định. Tôm chua thường được ăn kèm thịt heo ba chỉ luộc chín, cắt miếng nhỏ mỏng, rau thơm các loại, chuối sống, khế xanh cắt lát mỏn, vị ngọt ngon của thịt luộc hòa quyện với vị ngon đậm đà của tôm chua kết hợp với một số loại rau ăn kèm khiến món ăn này cuốn hút người thưởng thức ăn mãi không ngán. Quy cách: 500g/hủ",
+                    "preservation": "Nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh",
+                    "expiryday": "6 tháng kể từ ngày sản xuất",
+                    "origin": "Bình Định - Việt Nam",
+                    "image": "./images/menu/8.jpg"
+        },
+        {
+                    "id": 9,
+                    "name": "Rượu dừa Bến Tre",
+                    "price": "80000",
+                    "description": "Rượu dừa Bến Tre được lên men tự nhiên nên rất tốt cho sức khoẻ giúp ăn ngon miệng và kích thích tiêu hoá tốt và không gây đau đầu khi uống, hương vị ngọt. Quy cách: 500ml/lọ",
+                    "preservation": "Tủ lạnh có nhiệt độ thấp",
+                    "expiryday": "6 tháng kể từ ngày sản xuất",
+                    "origin": "Bến Tre - Việt Nam",
+                    "image": "./images/menu/9.jpg"
+           },
+           {
+                    "id": 10,
+                    "name": "Thập cẩm sấy Đà Lạt",
+                    "price": "150000",
+                    "description": "Thập cẩm sấy là món ăn vặt được nhiều người thích bởi thưởng thức được nhiều hương vị thơm ngon thú vị nhiều loại trái cây rau củ quả sấy có vị ngọt thanh tự nhiên đặc trưng của mỗi loại mít, chuối, khoai môn, khoai lang, khoai tây, khổ qua, cà rốt,... không đường giòn xốp, sản phẩm hoàn toàn không sử dụng hóa chất và phụ gia thực phẩm.  Quy cách: 500g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "6 tháng kể từ ngày sản xuất",
+                    "origin": "Đà Lạt - Việt Nam",
+                    "image": "./images/menu/10.jpg"
+        },
+        {
+                    "id": 11,
+                    "name": "Kẹo cu đơ Hà Tĩnh",
+                    "price": "70000",
+                    "description": "Kẹo Cu Đơ là một loại kẹo lạc được nấu từ mật mía, đường, mạch nha, gừng có thêm lạc nhân và được đổ vào hai miếng bánh tráng ép lại. Loại kẹo này rất dẻo và dính, có thể ăn không hoặc thưởng thức cùng với nước chè xanh. Quy cách: 400g/hộp - 10 cái",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "4 tháng kể từ ngày sản xuất",
+                    "origin": "Hà Tĩnh - Việt Nam",
+                    "image": "./images/menu/11.jpg"
+        },
+        {
+                    "id": 12,
+                    "name": "Tim sen",
+                    "price": "125000",
+                    "description": "Tim sen (mầm của hạt sen), vị ngọt, tính ấm, có công dụng dưỡng tâm, ích thận, bổ tỳ. Đây là loại thảo dược có chứa nuciferin giúp kéo dài giấc ngủ, nelumbin có tác dụng trấn tĩnh, làm bình dục tính. Đông y dùng tim sen chữa sốt và khát nước, di mộng tinh, tim đập nhanh, tăng huyết áp, hồi hộp hoảng hốt mất ngủ.  Quy cách: 500g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Đồng Tháp - Việt Nam",
+                    "image": "./images/menu/12.jpg"
+        },
+        {
+                    "id": 13,
+                    "name": "Trà Sha Tuyết Cổ Thụ",
+                    "price": "80000",
+                    "description": "Trà Shan Tuyết (hay chè Shan tuyết) là loại trà có búp to màu trắng xám, dưới lá trà có phủ 1 lớp lông tơ mịn, trắng nên người dân gọi là trà tuyết. Trà Shan Tuyết có mùi thơm dịu, nước vàng sánh màu mật ong. Trà được chế biến theo phương pháp thủ công của người dân tộc Mông, Dao. Quy cách: 100g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Sơn La - Việt Nam",
+                    "image": "./images/menu/13.jpg"
+        },
+        {
+                    "id": 14,
+                    "name": "Rượu bầu đá",
+                    "price": "80000",
+                    "description": "Rượu Bầu Đá hay còn gọi là Rượu Bàu Đá là một loại rượu vô cùng nổi tiếng tại Bình Định. Bên cạnh hương vị thơm ngon đậm đà trong từng giọt rượu, Rượu Bầu Đá còn có công dụng rất tốt đối với sức khỏe, giúp ngăn ngừa được rất nhiều loại bệnh. Quy cách: 1lít/chai",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Bình Định - Việt Nam",
+                    "image": "./images/menu/14.jpg"
+        
+        },
+        {
+                    "id": 15,
+                    "name": "Gạo sạch Global GAP",
+                    "price": "150000",
+                    "description": "Gạo sạch đạt chuẩn Global GAP đảm bảo sạch và tốt cho sức khỏe người tiêu dùng. Không có dư lượng thuốc BVTV, không chứa kim loại nặng và không nhiễm vi sinh gây bệnh. Quy cách: 5kg/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Bạc Liêu - Việt Nam",
+                    "image": "./images/menu/15.jpg"
+        
+        },
+        {
+                    "id": 16,
+                    "name": "Rượu sen Đồng Tháp",
+                    "price": "140000",
+                    "description": "Rượu sen được nấu một cách truyền thống bởi hạt sen, tim sen, củ sen, nếp và men bột sen vừa đủ. Rượu được nấu, ủ với công nghệ gia truyền một thời gian, ngắn nhất 06 tháng. Sau đó để vào nhụy sen đã được thu hoạch từ sớm tinh mơ trước khi mặt trời hé những tia sáng đầu tiên. Do đó, nhụy sen sẽ không bị tác động của các tia hồng ngoại càng làm tăng thêm mùi và vị của hương sen tự nhiên. Quy cách: 500ml/chai",
+                    "preservation": "Nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Đồng Tháp - Việt Nam",
+                    "image": "./images/menu/16.jpg"
+        },
+        {
+        
+                    "id": 17,
+                    "name": "Trà khổ qua rừng",
+                    "price": "195000",
+                    "description": "Trà khổ qua rừng được bào chế từ trái và lá khổ qua rừng thiên nhiên kết hợp cỏ ngọt Stevia, đảm bảo không chất bảo quản. Được sử dụng để hỗ trợ điều trị người bệnh tiểu đường, cao huyết áp, mỡ máu, các vấn đề về tim mạch, hoặc người đang trong chế độ ăn kiêng dùng trà khổ qua rừng là bí quyết giảm cân rất hiệu quả. Ngoài ra, khổ qua rừng có tính mát nên còn giúp thanh nhiệt, giải độc, hỗ trợ trị sạm da. Có thể sử dụng trà khổ qua rừng thay nước uống hằng ngày sau bữa ăn sẽ mang đến nhiều lợi ích rất tốt cho sức khỏe. Quy cách: 250g/hộp",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Đắk Lắk - Việt Nam",
+                    "image": "./images/menu/17.jpg"
+        
+        },
+        {
+                    "id": 18,
+                    "name": "Hạt sen sấy giòn",
+                    "price": "125000",
+                    "description": "Hạt sen sấy giòn được tuyển chọn kỹ từ những hạt sen to đều, sản phẩm làm theo quy trình công nghệ khép kín, là hàng loại 1, ăn giòn rụm, thơm ngon và không bị ngán. Là loại hạt rất tốt cho sức khỏe của mọi lứa tuổi, đặc biệt là người lớn tuổi, bà bầu và trẻ nhỏ. Quy cách: 250g/hộp",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Bình Phước - Việt Nam",
+                    "image": "./images/menu/18.jpg"
+        },
+        {
+                    "id": 19,
+                    "name": "Nước cốt dâu tằm",
+                    "price": "115000",
+                    "description": "Pha 1 phần nước cốt với 3 phần nước lọc (có thể là 5 phần với những ai thích uống nhạt, vừa phải) để được cốc nước dâu tằm thơm ngon tuyệt hảo, đậm đà hương vị đặc trưng của những quả Dâu tằm thơm ngon. Thêm chút đá để ly nước cốt dâu tằm trở nên tuyệt vời hơn với thời tiết mùa hè nhé. Quy cách: 1 lít/chai",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Bình Phước - Việt Nam",
+                    "image": "./images/menu/19.jpg"
+        },
+        {
+                    "id": 20,
+                    "name": "Nước mắm Ông Kỳ - Phú Quốc",
+                    "price": "100000",
+                    "description": "Nước mắm Ông Kỳ _ Phú Quốc có vị ngọt đậm đà, tự nhiên, dư vị ngọt kéo dài, gọi là hậu vị. Đó là điểm khác biệt của Nước mắm Ông Kỳ so với các loại nước mắm khác có pha thêm đường, bột ngọt, hoặc tạo độ đạm cao bằng hóa chất, hoặc bằng phương pháp công nghiệp. Điều đặc biệt này thể hiện trước hết ở nguồn nguyên liệu: chỉ chọn loại cá Cơm tươi, quý hiếm, hoàn toàn không có cá tạp, và được đánh bắt vào đúng thời vụ, khi mà chất lượng cá Cơm đạt đến độ tốt nhất. Quy cách: 500ml/chai",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Phú Quốc - Việt Nam",
+                    "image": "./images/menu/20.jpg"
+        },
+        {
+                    "id": 21,
+                    "name": "Kẹo mạch nha",
+                    "price": "35000",
+                    "description": "Kẹo mạch nha có độ dẻo nhưng không dai, màu vàng sậm, vị ngọt thanh, thơm ngon mùi nếp. Tên gọi khác: Kẹo mạ, di đường, đường nha, kẹo nha, mạch nha, kẹo mầm. Quy cách: 1 kg/hộp",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Quảng Nam - Việt Nam",
+                    "image": "./images/menu/21.jpg"
+        
+        },
+        {
+                    "id": 22,
+                    "name": "Rượu thốt nốt",
+                    "price": "115000",
+                    "description": "Rượu thốt nốt đi vào lòng người dân bởi hương vị đậm đà, mộc mạc, dân dã. Với độ men nhẹ kèm theo mùi hương thoang thoảng của thốt nốt tạo cảm giác thanh mát khi ta sử dụng. Quy cách: 500ml/chai",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "Vô hạn, càng lâu càng ngon",
+                    "origin": "An Giang - Việt Nam",
+                    "image": "./images/menu/22.jpg"
+        },
+        {
+                    "id": 23,
+                    "name": "Rượu mận Sáu Tia",
+                    "price": "270000",
+                    "description": "Được làm từ trái mận An Phước và mận hồng đào lá của miền Tây, rượu mận Sáu Tia nổi tiếng xa gần bởi hương vị thơm ngon, có lợi cho sức khỏe và phù hợp để làm quà. Rượu mận được sản xuất trong một quy trình thủ công điều chế bằng phương pháp nấu chứ không ngâm cất, do quy trình sản xuất là hỗn hợp nguyên liệu lên men được chưng cất nấu để lấy rượu. Rượu mận Sáu Tia hoàn toàn không sử dụng cồn và bất kỳ loại hóa chất hay hương liệu nào, và đặc biệt, loại rượu này để càng lâu càng tốt. Quy cách: 600ml/bình sành",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "Vô hạn, càng lâu càng ngon",
+                    "origin": "Cần Thơ - Việt Nam",
+                    "image": "./images/menu/23.jpg"
+        },
+        {
+                    "id": 24,
+                    "name": "Mắm tôm chà Gò Công",
+                    "price": "90000",
+                    "description": "Mắm tôm chà Gò Công gồm tôm đất, ớt, tỏi, đường, muối,... Pha với chanh, tỏi, ớt, đường cho phù hợp khẩu vị.Thích hợp dùng với bánh hỏi, bún ăn kèm với thịt ba rọi luộc và rau xanh. Quy cách: 100g/hủ",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Tiền Giang - Việt Nam",
+                    "image": "./images/menu/24.jpg"
+        },
+        {
+                    "id": 25,
+                    "name": "Rượu Sim Phú Quốc",
+                    "price": "170000",
+                    "description": "Rượu Sim Phú Quốc có màu nâu đỏ, mùi thơm của trái Sim, vị ngọt, chua chát. Là một vị thuốc tốt cho người bệnh lâu ngày, người bị suy nhược cơ thể, dùng trị thiếu máu khi có thai. Trái chín ăn rất ngon và bổ. Người ta đã chứng minh chất màu tím của trái là antocyanin có tác dụng chống oxy hóa, chống lão hóa. Hỗ trợ tốt cho Hệ tiêu hóa, bị nặng bụng, ăn không tiêu, nhất là khi ăn các hải sản giàu đạm và gỏi cá trích. Ngoài ra Mật sim còn có tác dụng trị các bệnh nhức mỏi thông thường, bổ máu, khí huyết lưu thông. Quy cách: 600ml/chai",
+                    "preservation": "Nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Phú Quốc - Việt Nam",
+                    "image": "./images/menu/25.jpg"
+        },
+        {
+                    "id": 26,
+                    "name": "Long nhãn sấy Hưng Yên",
+                    "price": "150000",
+                    "description": "Long Nhãn Hưng Yên sấy khô đã từ lâu trở thành một thứ đặc sản nổi danh khắp cả nước. Loại quả này không đơn thuần là một loại trái cây đặc thù của một vùng mà còn là một vật báu đối với sức khỏe con người. Long nhãn Hưng Yên được chọn lọc từ những quả nhãn tươi nguyên, nên long nhãn thành phẩm có màu vàng cánh gián rất đẹp mặt, vị ngọt thanh rất phù hợp sử dụng chăm sóc sức khỏe. Quy cách: 500g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "24 tháng kể từ ngày sản xuất",
+                    "origin": "Hưng Yên - Việt Nam",
+                    "image": "./images/menu/26.jpg"
+        },
+        {
+                    "id": 27,
+                    "name": "Rượu nho Phan Rang",
+                    "price": "85000",
+                    "description": "Rượu nho nguyên chất phan rang, Dịu nhẹ, ngọt thanh, nồng nàn là những hương vị bạn cảm nhận được khi thưởng thức rượu nho. Rượu nho Phan Rang mang một hương vị cũng giống như cốt cách của người dân quê hương Ninh Thuận. Quy cách: 750ml/chai",
+                    "preservation": "Nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Ninh Thuận - Việt Nam",
+                    "image": "./images/menu/27.jpg"
+        
+        },
+        {
+                    "id": 28,
+                    "name": "Bánh dừa nướng",
+                    "price": "27000",
+                    "description": "Bánh dừa nướng Quảng Nam mùi thơm phức, khi ăn cảm nhận độ giòn béo, nhai rộp rộp ngon khó tả. Là món bánh bình dân nhưng lại chinh phục được khẩu vị của bất cứ thực khách khó tính nào. Quy cách: 200g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Quảng Nam - Việt Nam",
+                    "image": "./images/menu/28.jpg"
+        },
+        {
+                    "id": 29,
+                    "name": "Cốm tươi Hà Nội",
+                    "price": "65000",
+                    "description": "Cốm tươi được làm từ lúa non còn sữa đạt chất lượng để sản xuất qua nhiều công đoạn khác, hình thành hạt cốm non, mỏng như lá me mang vị ngọt tự nhiên, cốm có màu xanh vàng tự nhiên, mộc mạc, không sử dụng bất cứ chất bảo quản nào.  Quy cách: 1kg",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Hà Nội - Việt Nam",
+                    "image": "./images/menu/29.jpg"
+        },
+        {
+                    "id": 30,
+                    "name": "Cá khô Chợ Mới",
+                    "price": "200000",
+                    "description": "Cá khô được làm sạch sau đó mang ướp muối, bột ngọt, hạt tiêu, tẩm màu cá khô bằng ớt trái lớn (ớt bỏ hạt giã lấy nước) khoảng 30 phút. Sau đó đem phơi với nắng gắt 3 đến 4 ngày. Quy cách: 1kg",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "An Giang - Việt Nam",
+                    "image": "./images/menu/30.jpg"
+        },
+        {
+                    "id": 31,
+                    "name": "Muối ớt Tây Ninh",
+                    "price": "38000",
+                    "description": "Muối ớt – một đặc sản không đâu có được của vùng nắng gió Tây Ninh. Khác hoàn toàn với muối trắng hay muối ớt tươi thông thường. Muối Tây Ninh có một hương vị vô cùng khác biệt. Nó chính là sự kết hợp hoàn hảo nhất giữa muối, tỏi, ớt và những gia vị khác. Quy cách: 200g/hủ",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Tây Ninh - Việt Nam",
+                    "image": "./images/menu/31.jpg"
+        },
+        {
+                    "id": 32,
+                    "name": "Kẹo dừa Bến Tre",
+                    "price": "40000",
+                    "description": "Kẹo dừa Bến Tre là một loại kẹo được chế biến từ nguyên liệu chính là cơm dừa và đường mạch nha. Đây là loại kẹo đặc sản và là một nghề thủ công truyền thống mang đậm văn hóa xứ sở. Việt Nam có nhiều vùng trồng dừa nhưng Bến Tre chính là nơi ra đời và phát triển nghệ thuật chế biến kẹo dừa. Quy cách: 80 viên/hộp",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "12 tháng kể từ ngày sản xuất",
+                    "origin": "Bến Tre - Việt Nam",
+                    "image": "./images/menu/32.jpg"
+        },
+        {
+                    "id": 33,
+                    "name": "Mắm ruốc Huế",
+                    "price": "90000",
+                    "description": "Mắm ruốc là một dạng mắm làm từ ruốc, là đặc sản nổi tiếng của người dân Miền Trung với hương vị cực ngon, có thể ăn liền không cần chế biến và đặc biệt đây là món ăn đặc sản được nhiều người chọn làm quà biếu người thân. Quy cách: 500g/hủ",
+                    "preservation": "Nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh",
+                    "expiryday": "2 tháng kể từ ngày sản xuất",
+                    "origin": "Huế - Việt Nam",
+                    "image": "./images/menu/33.jpg"
+        },
+        {
+                    "id": 34,
+                    "name": "Nem Lai Vung",
+                    "price": "25000",
+                    "description": "Nem Lai Vung là thứ nem chua mà nhìn từ ngoài vào trong ta sẽ thấy nem có màu đỏ hồng tươi, được gói trong lá chuối và dùng làm món ăn trong những buổi tiệc hoặc trong bữa cơm gia đình giản dị.Chúng ta cũng có thể ăn nem bình thường khi ta thích vì nó có vị chua ngọt cay ăn vô thấy rất ngon miệng.  Quy cách: 10 cái/bịch",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "10 ngày kể từ ngày sản xuất",
+                    "origin": "Đồng Tháp - Việt Nam",
+                    "image": "./images/menu/34.jpg"
+        },
+        {
+                    "id": 35,
+                    "name": "Bánh in đậu xanh",
+                    "price": "50000",
+                    "description": "Bánh in đậu xanh là món bánh độc đáo được làm hoàn toàn từ đậu xanh nguyên chất trải qua nhiều công đoạn phức tạp như: rang đậu, nghiền đậu và hấp đậu mới cho ra được món bánh in đặc biệt này. Quy cách: 500g/bịch",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "15 ngày kể từ ngày sản xuất",
+                    "origin": "Sóc Trăng - Việt Nam",
+                    "image": "./images/menu/35.jpg"
+        },
+        {
+                    "id": 36,
+                    "name": "Nước ép thanh long",
+                    "price": "120000",
+                    "description": "Nước Ép Thanh Long có vị ngọt dụi nhẹ với màu hồng tím đặc trưng của thanh lông đỏ, kết hợp với vị chua nhẹ của thanh long trắng. Nước ép này hỗ trợ tốt cho hệ tiêu hóa, tim mạch, đẹp da, chống lại các gốc oxy hóa. Đặc biệt Antociani có trong trái thanh long đỏ có khả năng kháng bệnh ung thư rất cao. Quy cách: 500ml/chai",
+                    "preservation": "Ở nhiệt độ thường nhưng không quá cao, nhiệt độ tốt nhất từ 22-24 độ, tránh ánh nắng trực tiếp.",
+                    "expiryday": "2 tháng kể từ ngày sản xuất",
+                    "origin": "Bình Thuận - Việt Nam",
+                    "image": "./images/menu/36.jpg"
+        },
+        {
+                    "id": 37,
+                    "name": "Bánh tét lá cẩm",
+                    "price": "85000",
+                    "description": "Bánh tét lá cẩm có hình trụ dài. Gồm có đậu, chuối, thịt mỡ, lạc xưởng và trứng muối. Kế tiếp là lớp nếp bao quanh. Và ngoài cùng là vỏ đánh được làm bằng lá chuối. Bánh tét lá cẩm có bốn loại: - Nhân thập cẩm: đậu, thịt mỡ, lạc xưởng, trứng muối. - Nhân mỡ: đậu, thịt mỡ. - Nhân đậu: đậu ngọt. - Nhân chuối: chuối ngọt. Quy cách: 600g/đòn",
+                    "preservation": "Nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh",
+                    "expiryday": "10 ngày kể từ ngày sản xuất",
+                    "origin": "Cần Thơ - Việt Nam",
+                    "image": "./images/menu/37.jpg"
+        },
+        {
+                    "id": 38,
+                    "name": "Chả bò Đà Nẵng",
+                    "price": "200000",
+                    "description": "Chả bò Đà Nẵng là sự kết hợp giữa loại thịt bò thăn tươi ngon được chọn lọc kỹ cùng với nước mắm, tiêu, dầu và các loại gia vị truyền thống đã tạo nên lát chả mà không nơi nào có được. Chả bò Đà Nẵng sẽ được gói trong những chiếc lá chuối xanh dân dã theo cách của người dân địa phương nên đem lại hương vị rất riêng. vQuy cách: 500g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh",
+                    "expiryday": "1 tháng kể từ ngày sản xuất",
+                    "origin": "Đà Nẵng - Việt Nam",
+                    "image": "./images/menu/38.jpg"
+        },
+        {
+                    "id": 39,
+                    "name": "Mứt sơ ri Gò Công",
+                    "price": "125000",
+                    "description": "Mức sơ ri là món đặc sản miền tây vô cùng hấp dẫn, tươi ngon hút hồn du khách khi đến đây. Mứt sơ ri Gò Công có độ ngọt dịu, dẻo, vị chua đặc trưng của sơ ri mà không gắt, không gây cảm giác ngán, là nguồn bổ sung vitamin C dồi dào trong mùa nóng. Quy cách: 1kg/hủ",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "1 tháng kể từ ngày sản xuất",
+                    "origin": "Tiền Giang - Việt Nam",
+                    "image": "./images/menu/39.jpg"
+        },
+        {
+                    "id": 40,
+                    "name": "Kẹo chuối tươi",
+                    "price": "30000",
+                    "description": "Kẹo chuối tươi truyền thống của xứ dừa được làm từ chuối xiêm chín, với sớ kẹo dẻo dẻo, dai dai, có hương vị đặc biệt của chuối khô, vị béo của nước cốt dừa, vị bùi của đậu phộng, mè rang. Quy cách: 200g/bịch",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "2 tháng kể từ ngày sản xuất",
+                    "origin": "Bến Tre - Việt Nam",
+                    "image": "./images/menu/40.jpg"
+        },
+        {
+                    "id": 41,
+                    "name": "Bánh đa kế",
+                    "price": "25000",
+                    "description": "Bánh đa kế là món bánh đặc biệt thơm ngon bởi vị bùi, thơm dòn của lạc, vừng, khoai lang hòa quện với thứ gạo ngon của vùng trung du miền núi cùng với bàn tay khéo léo của con người nơi đây đã trở thành thương hiệu của người dân Bắc Giang. Nguyên liệu chế biến ra món bánh đa là loại gạo ngon, đem ngâm nước, rồi xay nhuyễn để tạo thành thứ bột nhỏ mịn và trắng muốt trộn đều với gấc chín. Quy cách: 200g/bánh tròn",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "20 ngày kể từ ngày sản xuất",
+                    "origin": "Bắc Giang - Việt Nam",
+                    "image": "./images/menu/41.jpg"
+        },
+        {
+                    "id": 42,
+                    "name": "Chả hoa Năm Thụy",
+                    "price": "100000",
+                    "description": "Chả Hoa Năm Thụy là một đặc sản nổi tiếng của đất Trà Vinh, như tên gọi chả hoa khi cắt ra sẽ có hình giống như bông hoa ở giữa là trứng muối, xung quanh là nấm mèo, chả, ngoài cùng là lớp trứng gà đánh tan chiên thành tấm cuộn bên ngoài, vừa thơm ngon vừa đẹp mắt. Quy cách: 500g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "1 tháng kể từ ngày sản xuất",
+                    "origin": "Trà Vinh  -  Việt Nam",
+                    "image": "./images/menu/42.jpg"
+        },
+        {
+                    "id": 43,
+                    "name": "Bánh đậu xanh",
+                    "price": "35000",
+                    "description": "Bánh đậu xanh là một loại bánh ngọt làm từ bột đậu xanh quết nhuyễn với đường và dầu thực vật hay mỡ động vật, thường là mỡ lợn. Bánh được cắt thành từng khối vuông nhỏ, gói giấy bạc thành hộp nhỏ,lớn hay gói giấy thấm mỡ thành từng thỏi vàng. Bánh thường được dùng khi uống trà tàu hay chè xanh, khi đó sẽ tạo cảm giác thư thái. Nguyên liệu để chế biến bánh gồm: Đậu xanh, đường kết tinh, mỡ lợn, tinh dầu của hoa bưởi. Tất cả đều phải được chọn lọc và được chế biến tinh khiết. Quy cách: 400g/hộp",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "2 tháng kể từ ngày sản xuất",
+                    "origin": "Hải Dương  -  Việt Nam",
+                    "image": "./images/menu/43.jpg"
+        },
+        {
+                    "id": 44,
+                    "name": "Cơm cháy chà bông",
+                    "price": "28000",
+                    "description": "Cơm Cháy Chà Bông là món ăn vặt làm từ cơm cháy với vị giòn thơm của gạo nếp, mặn béo của mỡ hành và chà bông, cực ngon miệng. Quy cách: 220g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "2 tháng kể từ ngày sản xuất",
+                    "origin": "Cần Thơ  -  Việt Nam",
+                    "image": "./images/menu/44.jpg"
+        },
+        {
+                    "id": 45,
+                    "name": "Đậu phộng rang tỏi ớt",
+                    "price": "50000",
+                    "description": "Đậu phộng rang tỏi ớt là 1 biến tấu thú vị của món đậu phộng rang. Thay vì chế biến đậu phộng rang thông thường thì giờ đây, bạn chỉ cần kết hợp thêm với chút gia vị là có ngay món ăn hoàn toàn mới, thơm ngon và đậm đà hơn nhiều. Món này thích hợp cho ngày Tết, đi picnic và làm món tráng miệng mỗi buổi tiệc. Quy cách: 500g/hộp",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "1 tháng kể từ ngày sản xuất",
+                    "origin": "Cần Thơ  -  Việt Nam",
+                    "image": "./images/menu/45.jpg"
+        
+        },
+        {
+                    "id": 46,
+                    "name": "Kẹo đậu phụng",
+                    "price": "15000",
+                    "description": "Kẹo đậu phụng gồm đường, đậu, mè, mạch nha, là món ăn liền (Làm món ăn vặt chơi, ăn và uống trà cũng ngon tuyệt,…). Quy cách: 100g/gói",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "2 tháng kể từ ngày sản xuất",
+                    "origin": "Đà Nẵng  -  Việt Nam",
+                    "image": "./images/menu/46.jpg"
+        },
+        {
+                    "id": 47,
+                    "name": "Tré Bà Đệ",
+                    "price": "85000",
+                    "description": "Thành phần chính của Tré Bà Đệ là thịt nạc vai, mông, thịt ba chỉ và da heo. Cùng các gia vị như nước mắm khô, tỏi, mè (vừng), riềng…Sau quá trình đóng gói, được ủ khoảng 2 đến 3 ngày cho lên men, rồi sau đó vào ngăn mát tủ lạnh dùng được trong 15 ngày. Tré sau khi ủ chín có mùi thơm hấp dẫn của thịt, riềng, tỏi lên men. Đặc biệt, món tré ngon phải được gói bằng lá chuối có lót lá ổi, nhằm làm tăng thêm vị hấp dẫn dai dai, giòn giòn , thơm ngon và ăn nhiều cũng không cảm thấy ngấy. Quy cách: 10 cái/hộp - 400g",
+                    "preservation": "Nơi khô ráo, thoáng mát",
+                    "expiryday": "15 ngày kể từ ngày sản xuất",
+                    "origin": "Đà Nẵng  -  Việt Nam",
+                    "image": "./images/menu/47.jpg"
+        },
+        {
+                    "id": 48,
+                    "name": "Lạp Xưởng",
+                    "price": "200000",
+                    "description": "Lạp xưởng được làm từ thịt nạc và thịt mỡ lợn xay nhuyễn trộn với rượu, đường rồi nhồi vào ruột lợn khô để chín bằng cách lên men tự nhiên. Lạp xưởng phơi là lạp xưởng khô, còn không phơi là lạp xưởng tươi. Lạp xưởng màu hồng hoặc nâu sậm, vị ngọt.  Quy cách: 1kg",
+                    "preservation": "Nơi khô ráo, thoáng mát, nhiệt độ thường ",
+                    "expiryday": "15 ngày kể từ ngày sản xuất",
+                    "origin": "Long An  -  Việt Nam",
+                    "image": "./images/menu/48.jpg"
+        },
+        {
+                    "id": 49,
+                    "name": "Mực rim me",
+                    "price": "50000",
+                    "description": "Mực rim me được làm từ mực cán mỏng, được tẩm ướp gia vị đậm đà với nước sốt me và ớt cho hương vị thơm ngon.  Quy cách: 300g/hủ",
+                    "preservation": "Nơi khô ráo, thoáng mát, nhiệt độ thường ",
+                    "expiryday": "2 tháng kể từ ngày sản xuất",
+                    "origin": "Khánh Hòa  -  Việt Nam",
+                    "image": "./images/menu/49.jpg"
+        },
+        {
+                    "id": 50,
+                    "name": "Bánh Pía",
+                    "price": "65000",
+                    "description": "Bánh Pía là loại bánh có sự kết hợp hoàn hảo của: Đậu xanh, Sầu riêng, Trứng muối, từ đó tạo nên một hương vị đặc trưng mà không loại bánh nào có được. Quy cách: 580g/bịch",
+                    "preservation": "Nơi khô ráo, thoáng mát, nhiệt độ thường ",
+                    "expiryday": "1 tháng kể từ ngày sản xuất",
+                    "origin": "Sóc Trăng  -  Việt Nam",
+                    "image": "./images/menu/50.jpg"
+        },
+        {
+            "id": 51,
+            "name": "Thịt lợn gác bếp",
+            "price": "300000",
+            "description": "Thịt gác bếp Tây Bắc - KHÔNG chất bảo quản - KHÔNG chất phụ gia. Thịt được tẩm ướp cùng các gia vị hoàn toàn tự nhiên như mắc khén, hạt dổi, xả ớt.. Tạo ra một món ăn Vô cùng thơm ngon, mang nét đặc trưng của núi rừng Tây Bắc. Thịt gác bếp không chỉ là món nhậu khoái khẩu của nhiều người mà còn là một thức quà ngon lạ cho ngày Tết. Quy cách: 500g/gói",
+            "preservation": "Tủ lạnh có nhiệt độ thấp",
+            "expiryday": "6 tháng kể từ ngày sản xuất",
+            "origin": "Lào Cai - Việt Nam",
+            "image": "./images/menu/51.jpg"
+        },
+        {
+            "id": 52,
+            "name": "Chuối sấy dẻo",
+            "price": "40000",
+            "description": " Chuối sấy dẻo là một trong những món ăn vặt được nhiều người yêu thích, vừa mang vị đậm đà của đường, vị thơm của chuối.  Quy cách: 300g/hộp",
+            "preservation": "Nơi khô ráo, thoáng mát",
+            "expiryday": "6 tháng kể từ ngày sản xuất",
+            "origin": "Bắc Cạn - Việt Nam",
+            "image": "./images/menu/52.jpg"
+        }
+    ]
+}
